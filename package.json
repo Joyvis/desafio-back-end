@@ -1,0 +1,5 @@
+{
+  "name": "cnab_data_importer",
+  "private": true,
+  "dependencies": {}
+}
