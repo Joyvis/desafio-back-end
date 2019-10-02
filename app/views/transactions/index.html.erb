@@ -1,4 +1,3 @@
-<% total_value = 0 %>
 <h1 class='mt-5'>Transações</h1>
 
 <hr>
@@ -8,56 +7,6 @@
   <%= submit_tag :send %>
 <% end %>
 
-<hr>
-<h5>Visualizar Transações por Loja</h5>
-<%= form_tag({}, { method: :get }) do %>
-  <%= 
-    select_tag "q[customer_id_eq]", 
-      options_from_collection_for_select(@customers, "id", "store_name") 
-  %>
-  <%= submit_tag :send %>
+<% if @customers.present?  %>
+  <%= render 'transactions_table' %>
 <% end %>
-
-<table class='table'>
-  <thead>
-    <tr>
-      <th scope='col'>#</th>
-      <th scope='col'>Data</th>
-      <th scope='col'>Tipo</th>
-      <th scope='col'>Número Cartão</th>
-      <th scope='col'>Nome Da Loja</th>
-      <th scope='col'>Valor</th>
-    </tr>
-  </thead>
-  <tbody>
-    <% @transactions.each do |transaction| %>
-      <tr>
-        <th scope='row'><%= transaction.id %></td>
-        <td><%= transaction.transaction_date %></td>
-        <td><%= transaction.transaction_type.name %></td>
-        <td><%= transaction.card_number %></td>
-        <td><%= transaction.customer.store_name %></td>
-        <td class="text-right">
-          <% total_value += transaction.value %>
-          <%= 
-            number_to_currency(transaction.value, 
-                               unit: "R$ ", separator: ",", delimiter: ".")
-            
-          %>
-        </td>
-      </tr>
-    <% end %>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td colspan="5"><b>TOTAL:</b></td>
-      <td class="text-right">
-        <%= 
-          number_to_currency(total_value, 
-                             unit: "R$ ", separator: ",", delimiter: ".")
-
-                           %>
-      </td>
-    </tr>
-  </tfoot>
-</table>

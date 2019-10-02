@@ -8,21 +8,19 @@ describe CnabRules::DataImporter, type: :business do
     let(:transactions) { Transaction.all }
 
     context 'with a valid file' do
-      let(:file) { file_fixture('CNAB.txt').read }
+      let(:file) { file_fixture('CNAB.txt') }
 
       it 'all transactions are imported' do
-        is_expected.to be_a Array
-        expect(subject.size).to eq(transactions.size)
-        expect(file.split("\n").size).to eq(transactions.size)
+        is_expected.to be_truthy
+        expect(file.read.split("\n").size).to eq(transactions.size)
       end
     end
 
     context 'with a invalid file' do
-      let(:file) { '' }
+      let(:file) { file_fixture('INVALID_CNAB.txt') }
 
       it 'all transactions are not imported' do
-        is_expected.to be_a Array
-        is_expected.to be_empty
+        is_expected.to be_falsey
       end
     end
   end

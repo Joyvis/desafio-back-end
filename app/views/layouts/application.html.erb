@@ -12,6 +12,12 @@
 
   <body>
     <main role="main" class='container'>
+    <% if flash[:notice] %>
+      <%= render 'partials/success_flash' %>
+    <% elsif flash[:error] %>
+      <%= render 'partials/error_flash' %>
+    <% end %>
+
       <%= yield %>
     </main>
 

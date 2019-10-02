@@ -5,7 +5,8 @@ module CnabRules
     attr_reader :file_data
 
     def self.import(file_data = nil)
-      file_data = file_data.read if file_data.respond_to? :read
+      return [] unless file_data.respond_to? :read
+      file_data = file_data.read
       new(file_data).import
     end
 
@@ -14,18 +15,17 @@ module CnabRules
     end
 
     def import
-      file_data.split("\n").map do |line|
-        transaction = CnabRules::DataParser.parse(normalize_encode(line))
-
-        if transaction.save
-          transaction
-        else
-          transacton.errors.message
-        end
-      end
+      !save_data.include? false
     end
 
     private
+
+    def save_data
+      file_data.split("\n").map do |line|
+        transaction = CnabRules::DataParser.parse(normalize_encode(line))
+        transaction.save
+      end
+    end
 
     def normalize_encode(string)
       string.encode("ASCII-8BIT").force_encoding('utf-8')

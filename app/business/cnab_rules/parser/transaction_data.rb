@@ -37,10 +37,6 @@ module TransactionData
     Time.zone.parse(string_hour).seconds_since_midnight.seconds
   end
 
-  def value
-    transaction.slice(9, 10).to_f / 100
-  end
-
   def card_number
     transaction.slice(30, 12)
   end

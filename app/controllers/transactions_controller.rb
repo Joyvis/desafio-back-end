@@ -14,7 +14,11 @@ class TransactionsController < ApplicationController
   end
 
   def import
-    transaction = CnabRules::DataImporter.import(transaction_params[:file_data])
+    if CnabRules::DataImporter.import(transaction_params[:file_data])
+      flash[:notice] = "Transações Importadas com sucesso!"
+    else
+      flash[:error] = "Algumas das Transações podem não ter sido importadas"
+    end
 
     redirect_to action: :index
   end

@@ -18,7 +18,7 @@ describe CnabRules::DataParser, type: :business do
     end
 
     context 'with invalid params' do
-      let(:line) { '' }
+      let(:line) { 'aaa11""""""' }
 
       it 'transaction not builded' do
         is_expected.to be_a Transaction

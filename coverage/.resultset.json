@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/spec/business/cnab_rules/data_importer_spec.rb": [
+      "/desafio_backend/spec/business/cnab_rules/data_importer_spec.rb": [
         null,
         null,
         1,
@@ -17,7 +17,6 @@
         1,
         1,
         1,
-        1,
         null,
         null,
         null,
@@ -26,13 +25,12 @@
         null,
         1,
         1,
-        1,
         null,
         null,
         null,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/spec/rails_helper.rb": [
+      "/desafio_backend/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -59,7 +57,7 @@
         null,
         null,
         null,
-        1,
+        null,
         1,
         null,
         0,
@@ -103,14 +101,14 @@
         null,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/config/environment.rb": [
+      "/desafio_backend/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/config/application.rb": [
+      "/desafio_backend/config/application.rb": [
         1,
         null,
         1,
@@ -149,13 +147,13 @@
         null,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/config/boot.rb": [
+      "/desafio_backend/config/boot.rb": [
         1,
         null,
         1,
         1
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/config/environments/test.rb": [
+      "/desafio_backend/config/environments/test.rb": [
         1,
         null,
         null,
@@ -203,7 +201,7 @@
         null,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/config/initializers/application_controller_renderer.rb": [
+      "/desafio_backend/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -213,7 +211,7 @@
         null,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/config/initializers/assets.rb": [
+      "/desafio_backend/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -229,7 +227,7 @@
         null,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/config/initializers/backtrace_silencers.rb": [
+      "/desafio_backend/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -238,7 +236,7 @@
         null,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/config/initializers/content_security_policy.rb": [
+      "/desafio_backend/config/initializers/content_security_policy.rb": [
         null,
         null,
         null,
@@ -265,20 +263,20 @@
         null,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/config/initializers/cookies_serializer.rb": [
+      "/desafio_backend/config/initializers/cookies_serializer.rb": [
         null,
         null,
         null,
         null,
         1
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/config/initializers/filter_parameter_logging.rb": [
+      "/desafio_backend/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/config/initializers/inflections.rb": [
+      "/desafio_backend/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -296,13 +294,13 @@
         null,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/config/initializers/mime_types.rb": [
+      "/desafio_backend/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/config/initializers/wrap_parameters.rb": [
+      "/desafio_backend/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -318,7 +316,7 @@
         null,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/spec/factories/customer.rb": [
+      "/desafio_backend/spec/factories/customer.rb": [
         null,
         null,
         1,
@@ -329,7 +327,7 @@
         null,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/spec/factories/transaction.rb": [
+      "/desafio_backend/spec/factories/transaction.rb": [
         null,
         null,
         1,
@@ -338,21 +336,21 @@
         null,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/config/routes.rb": [
+      "/desafio_backend/config/routes.rb": [
         1,
         1,
         1,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/app/helpers/application_helper.rb": [
+      "/desafio_backend/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/app/helpers/transactions_helper.rb": [
+      "/desafio_backend/app/helpers/transactions_helper.rb": [
         1,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/app/business/cnab_rules/data_importer.rb": [
+      "/desafio_backend/app/business/cnab_rules/data_importer.rb": [
         null,
         null,
         1,
@@ -362,6 +360,11 @@
         1,
         2,
         2,
+        2,
+        null,
+        null,
+        1,
+        2,
         null,
         null,
         1,
@@ -369,28 +372,23 @@
         null,
         null,
         1,
+        null,
+        1,
         2,
-        21,
-        null,
-        21,
-        21,
-        null,
-        0,
-        null,
+        22,
+        22,
         null,
         null,
         null,
         1,
-        null,
-        1,
-        21,
+        22,
         null,
         13,
         null,
         null,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/spec/business/cnab_rules/data_parser_spec.rb": [
+      "/desafio_backend/spec/business/cnab_rules/data_parser_spec.rb": [
         null,
         null,
         1,
@@ -421,7 +419,7 @@
         null,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/app/business/cnab_rules/data_parser.rb": [
+      "/desafio_backend/app/business/cnab_rules/data_parser.rb": [
         null,
         null,
         1,
@@ -433,61 +431,61 @@
         1,
         null,
         1,
-        23,
+        24,
         null,
         null,
         1,
-        23,
+        24,
         null,
         null,
         1,
-        23,
+        24,
         22,
         null,
-        1,
+        2,
         null,
         null,
         1,
         null,
         1,
-        23,
+        24,
         22,
         22,
         null,
-        null,
-        null,
         22,
+        null,
+        null,
         null,
         null,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/app/business/cnab_rules/parser/customer_data.rb": [
+      "/desafio_backend/app/business/cnab_rules/parser/customer_data.rb": [
         null,
         null,
         1,
         1,
         null,
         1,
-        23,
+        24,
         null,
-        23,
-        null,
-        null,
-        1,
-        null,
-        1,
-        23,
+        24,
         null,
         null,
         1,
-        23,
+        null,
+        1,
+        24,
+        null,
+        null,
+        1,
+        24,
         22,
         null,
         5,
         null,
         null,
         1,
-        23,
+        24,
         null,
         null,
         1,
@@ -499,7 +497,7 @@
         null,
         null,
         1,
-        28,
+        29,
         null,
         null,
         1,
@@ -511,7 +509,7 @@
         null,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/app/business/cnab_rules/parser/transaction_type_data.rb": [
+      "/desafio_backend/app/business/cnab_rules/parser/transaction_type_data.rb": [
         null,
         null,
         1,
@@ -530,31 +528,7 @@
         null,
         null,
         1,
-        22,
-        null,
-        null,
-        1,
-        22,
-        null,
-        null
-      ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/app/business/cnab_rules/parser/transaction_data.rb": [
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        22,
-        null,
-        22,
-        null,
-        null,
-        1,
-        null,
-        1,
-        22,
-        null,
+        66,
         null,
         null,
         null,
@@ -563,23 +537,13 @@
         null,
         null,
         1,
-        22,
-        null,
-        null,
-        null,
-        22,
+        44,
         null,
         null,
         1,
-        22,
+        44,
         null,
-        null,
-        null,
-        22,
-        null,
-        null,
-        1,
-        22,
+        16,
         null,
         null,
         1,
@@ -587,7 +551,52 @@
         null,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/spec/models/customer_spec.rb": [
+      "/desafio_backend/app/business/cnab_rules/parser/transaction_data.rb": [
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        22,
+        null,
+        22,
+        null,
+        null,
+        1,
+        null,
+        1,
+        22,
+        null,
+        null,
+        null,
+        null,
+        1,
+        22,
+        null,
+        null,
+        1,
+        22,
+        null,
+        null,
+        null,
+        22,
+        null,
+        null,
+        1,
+        22,
+        null,
+        null,
+        null,
+        22,
+        null,
+        null,
+        1,
+        22,
+        null,
+        null
+      ],
+      "/desafio_backend/spec/models/customer_spec.rb": [
         1,
         null,
         1,
@@ -602,7 +611,7 @@
         null,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/app/models/customer.rb": [
+      "/desafio_backend/app/models/customer.rb": [
         1,
         1,
         null,
@@ -610,12 +619,12 @@
         1,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/app/models/application_record.rb": [
+      "/desafio_backend/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/spec/models/transaction_spec.rb": [
+      "/desafio_backend/spec/models/transaction_spec.rb": [
         1,
         null,
         1,
@@ -630,7 +639,7 @@
         null,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/app/models/transaction.rb": [
+      "/desafio_backend/app/models/transaction.rb": [
         1,
         1,
         1,
@@ -639,7 +648,7 @@
         null,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/spec/models/transaction_type_spec.rb": [
+      "/desafio_backend/spec/models/transaction_type_spec.rb": [
         1,
         null,
         1,
@@ -652,7 +661,7 @@
         null,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/app/models/transaction_type.rb": [
+      "/desafio_backend/app/models/transaction_type.rb": [
         1,
         1,
         1,
@@ -662,7 +671,8 @@
         1,
         null
       ],
-      "/home/joyvis/projects/testes_empregos/cnab_data_importer/db/seeds.rb": [
+      "/desafio_backend/db/seeds.rb": [
+        null,
         null,
         null,
         null,
@@ -672,7 +682,6 @@
         null,
         null,
         1,
-        null,
         null,
         null,
         null,
@@ -688,6 +697,6 @@
         1
       ]
     },
-    "timestamp": 1557977194
+    "timestamp": 1570059496
   }
 }
